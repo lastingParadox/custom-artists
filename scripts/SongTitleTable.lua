@@ -136,6 +136,12 @@ SongTitleTable.soundtracks = {
     },
     [Artist.OC_REMIX] = {
         artistPrefix = "OC ReMix - ",
+        titles = {
+            [TrackType.LOBBY] = "Funky Morty",
+            zones = {
+                [Zone.ZONE_1] = { [1] = "9-bit Cryptography", [3] = "Sepulchre Soirée" },
+            },
+        },
         artists = {
             [TrackType.LOBBY] = "Flexstyle",
             [TrackType.TRAINING] = "Ben Briggs",

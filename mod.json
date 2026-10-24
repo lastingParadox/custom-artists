@@ -1,7 +1,7 @@
 {
 	"namespace": "CustomArtists",
 	"displayName": "Custom Artists",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"synchronyVersion": "4.2.1",
 	"description": "Have you wanted to add songs on top of the roster of artists that exist in Crypt of the NecroDancer over overriding them with Custom Music or a Resource Pack? This mod aims to solve just that by replacing the Custom Music menu with a new \"Custom Artists\" menu.\r\n\r\nAll custom music files are registered as artists now and can be set in the \"Change Soundtracks\" menu. Additionally, you can import resource packs as custom artists as well!\r\n\r\nThis mod also supports a song randomizer, with enabled artists in the \"Custom Artists\" menu contributing to it. You can switch between randomizing artists (per floor, per zone, per run) or shuffle zones entirely during a run. Shuffling also supports a seeded per character mode that will persist across game restarts.",
 	"author": "Zandr",
@@ -15,6 +15,6 @@
 	"homepageURL": "https://mod.io/g/crypt/m/customartists",
 	"modioID": "6387365",
 	"modioUserID": 24669409,
-	"pendingVersion": "1.0.2",
+	"pendingVersion": "1.0.3",
 	"visibility": 0
 }
