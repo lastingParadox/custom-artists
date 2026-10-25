@@ -738,12 +738,10 @@ event.musicTrack.add("finalizeShuffledTrack", { order = "layerFallback", sequenc
         return
     end
 
-    -- Loop as the stock game does where the song plays, not where it came from: a zone floor ends with its song, which
-    -- is the floor's time limit, and fights loop except Return of the NecroDancer
     local playsIn = ev.CustomArtists_area and ev.CustomArtists_area.track or {}
 
     if playsIn.type == ZONE then
-        ev.loop = false
+        ev.loop = nil
     elseif playsIn.type == BOSS then
         ev.loop = playsIn.boss ~= boss.Type.NECRODANCER_2
     else
